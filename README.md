@@ -1,7 +1,7 @@
 # nu.baretta.itho
 Control ITHO mechanical ventilation unit with Homey
 
-Initial version aiming to reconcile the Arduino CC1101 signal definition with Homey's signal definition. Note that the Itho protocol contains two different messages, message1 for older units, and message2 for new units (as well as joining/leaving). There are some difference between the signals of the two message types, initially the focus is on message1.
+Initial version aiming to reconcile the Arduino CC1101 signal definition with Homey's signal definition. Note that the Itho protocol contains two different messages, message1 for older units, and message2 for new units (as well as joining/leaving). There are some differences between the signals of the two message types, initially the focus is on message1 (as it turns out it's all that is needed to turn my Itho unit to 'High' ;-).
 
 Arduino CC1101:
 	Configuration reverse engineered from remote print. The commands below are used by IthoDaalderop.
